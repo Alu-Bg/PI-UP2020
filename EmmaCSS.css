@@ -1,0 +1,219 @@
+/*Fuentes Importadas*/
+@font-face { font-family: Titulos; src: url(fuentes/BODONIB.TTF);}
+@font-face { font-family: Pelis; src: url(fuentes/Wishingly.otf);}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    background-color: #f3dedb;}
+
+h3 {
+    font-family: Pelis;
+    padding-top: 1%;
+}
+
+@keyframes anim1 {
+    0% {
+        transform: scale(0.9);
+      }
+
+    50% {
+        transform: scale(1);
+      }
+
+    100% {
+        transform: scale(0.9);
+      }
+}
+
+@keyframes anim2 {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+/*Clases*/
+
+.anim1 {
+    animation: anim1 10s infinite;
+}
+
+.anim2 {
+    animation: anim2 3s infinite;
+    animation-delay: 1;
+}
+
+.ubicacionnav {
+    justify-content: center;
+}
+
+.letralinda {
+    color: #c28d89;
+    font-family: Titulos;
+    font-size: xx-large;
+}
+
+.generalbackground { 
+    background-color: #f3dedb;
+}
+
+.size { width: 100%;}
+
+.titles {
+    text-align: center;
+    font-family: Titulos;
+}
+
+.backgroundaboutemma {
+    background-color: #d1aea8;
+}
+
+.patron1 { 
+    background-image: url(imgs/Patrón1.jpg);
+    width: max-content;
+    margin: 0;
+}
+
+.patron2 {
+    background-image: url(imgs/Patrón2.jpg);
+    margin: 0;
+}
+
+.patron3 {
+    background-image: url(imgs/Patrón3.jpg);
+    margin: 0;
+}
+
+.fondoaboutemma {
+    background-color: #e2cac6;
+}
+
+.containerpelis {
+    background-color: #edd5cb;
+}
+
+.cajaimg {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.cajaimg .overlay {
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cajaimg:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.thisone {
+    font-size: 1.50rem;
+}
+
+.overlay h3 {
+    position: absolute;
+    bottom: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay p {
+    position: absolute;
+    bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transform: translate(-50% -50%);
+}
+
+.extrpadding {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.txt2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+.espacioarriba {
+    margin-top: 2%;
+}
+
+.espacioabajo {
+    margin-bottom: 2%;
+}
+
+.centert {
+    align-self: center;
+}
+
+.containerpremios {
+    background-color: #fef1e8;
+}
+
+.pad [class*="col-"] {
+    padding: 0;
+}
+
+.backgroundonu {
+    background-color: #e9d0c8;
+}
+
+.contsize {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.backgroundcont {
+    background-color: #ece7e6;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    font-size: large;
+    background-color: #d1aea8;
+}
+
+.onu {
+    color: #aa948d;
+}
+
+.logros {
+    color: #746157;
+}
+
+.peliculas {
+    color: #b68768;
+}
+
+.abtemma {
+    color: #aa857e;
+}
